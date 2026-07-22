@@ -58,7 +58,32 @@ nav {
 .nav-links a:hover { color: var(--gold); }
 .nav-links a:hover::after, .nav-links a.active::after { transform: scaleX(1); }
 .nav-links a.active { color: var(--gold); }
-.nav-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); margin: 0 0.4rem; }
+.nav-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); margin: 0 0.4rem; transition: background 0.25s; }
+.nav-placeholder {
+  color: rgba(255,255,255,0.35);
+  font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase;
+  cursor: default; user-select: none;
+}
+
+/* ── NAV: scrolled state (once past the header photo) ── */
+nav.scrolled {
+  background: rgba(250, 249, 246, 0.94);
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+nav.scrolled .nav-logo { color: var(--forest); }
+nav.scrolled .nav-links a { color: var(--stone); }
+nav.scrolled .nav-links a:hover { color: var(--gold-text); }
+nav.scrolled .nav-links a.active { color: var(--gold-text); }
+nav.scrolled .nav-placeholder { color: rgba(107, 123, 114, 0.45); }
+nav.scrolled .nav-divider { background: rgba(30, 58, 47, 0.15); }
+nav.scrolled .lang-switcher summary { color: var(--stone); }
+nav.scrolled .lang-switcher summary:hover,
+nav.scrolled .lang-switcher[open] summary { color: var(--gold-text); }
+nav.scrolled .lang-menu { background: var(--white); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+nav.scrolled .lang-menu a { color: var(--forest); }
+nav.scrolled .lang-menu li + li { border-top: 1px solid rgba(30,58,47,0.08); }
+nav.scrolled .lang-menu a.lang-current { background: var(--mist); }
+nav.scrolled .lang-menu a:not(.lang-current):hover { background: var(--mist); }
 
 /* ── LANGUAGE SWITCHER ── */
 .lang-switcher { position: relative; }
