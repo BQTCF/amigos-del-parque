@@ -1,1 +1,24 @@
-
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="{% if page.lang == 'es' %}index-es.html{% else %}index.html{% endif %}"><img src="images/logo.png" alt="" />AMIGOS DEL PARQUE</a>
+  <ul class="nav-links">
+    <li><a href="{% if page.lang == 'es' %}index-es.html{% else %}index.html{% endif %}" {% if page.active == "home" %}class="active"{% endif %}>{% if page.lang == 'es' %}Inicio{% else %}Home{% endif %}</a></li>
+    <li><a href="{% if page.lang == 'es' %}donate-es.html{% else %}donate.html{% endif %}" {% if page.active == "donate" %}class="active"{% endif %}>{% if page.lang == 'es' %}Donar{% else %}Donate{% endif %}</a></li>
+    <li><a href="{% if page.lang == 'es' %}howtohelp-es.html{% else %}howtohelp.html{% endif %}" {% if page.active == "howtohelp" %}class="active"{% endif %}>{% if page.lang == 'es' %}Cómo Ayudar{% else %}How to Help{% endif %}</a></li>
+    <li><a href="{% if page.lang == 'es' %}about-es.html{% else %}about.html{% endif %}" {% if page.active == "about" %}class="active"{% endif %}>{% if page.lang == 'es' %}Sobre el Parque{% else %}About the Park{% endif %}</a></li>
+    <li><span class="nav-placeholder">{% if page.lang == 'es' %}Proyectos{% else %}Projects{% endif %}</span></li>
+    <li class="nav-divider"></li>
+    <li class="lang-switcher"><details>
+      <summary>{{ page.lang | upcase }}</summary>
+      <ul class="lang-menu">
+        {% if page.lang == "es" %}
+        <li><a href="{{ page.url }}" class="lang-current">ES</a></li>
+        <li><a href="{{ page.en_url }}">EN</a></li>
+        {% else %}
+        <li><a href="{{ page.url }}" class="lang-current">EN</a></li>
+        <li><a href="{{ page.es_url }}">ES</a></li>
+        {% endif %}
+      </ul>
+    </details></li>
+  </ul>
+</nav>
