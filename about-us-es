@@ -1,0 +1,87 @@
+---
+lang: es
+active: about-us
+en_url: about-us.html
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nosotros | Amigos del Parque Biblioteca Boquete</title>
+  <meta name="description" content="Conozca a la Junta Directiva voluntaria de Amigos del Parque Biblioteca Boquete." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  {% include nav.html %}
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="about" class="mission-split">
+    <div class="mission-text">
+      <div class="section-label">Quiénes Somos</div>
+      <div class="divider"></div>
+      <h2>Sobre Nosotros</h2>
+      <p>Amigos del Parque está dirigido por una Junta Directiva voluntaria, unida por el compromiso común de preservar, mejorar y ampliar el Parque Biblioteca Boquete para beneficio de nuestra comunidad. Contamos con una amplia variedad de trayectorias y experiencias, pero todos compartimos un mismo objetivo: contribuir a que este extraordinario parque siga prosperando para las generaciones venideras.</p>
+    </div>
+  </section>
+
+  <!-- JUNTA DIRECTIVA -->
+  <section id="board" class="section-alt">
+    <div class="container">
+      <div class="section-label">Conozca a la Junta</div>
+      <div class="divider"></div>
+      <h2>Junta Directiva</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Penelope Barrett, Tesorera</h3>
+          <p>Penelope Barrett, Tesorera, reside en Boquete desde hace más de dos décadas y ha dedicado incontables horas a la comunidad mediante su participación en muchas de las organizaciones sin fines de lucro de Boquete. Actualmente se desempeña como Tesorera de la Boquete Handicap Foundation y es miembro activo del comité de Amigos del Parque, contribuyendo a impulsar la misión del Parque Biblioteca Boquete.</p>
+        </div>
+        <div class="card">
+          <h3>Paquita Bath</h3>
+          <p>Paquita Bath se mudó a Boquete en 2016, atraída por su belleza natural y su gran comunidad. Desarrolla su pasión por la conservación a través de su empresa, Aligning Visions. Vive en Volcancito con su esposo, Martin Moreno, y sus tres «Panamutts».</p>
+        </div>
+        <div class="card">
+          <h3>Nicolás Choy</h3>
+          <p>Nicolás Choy es gerente general de Jarquin, S.A. en David. Es Presidente de la Fundación Biblioteca de Boquete, miembro activo de Amigos del Parque y lector entusiasta.</p>
+        </div>
+        <div class="card">
+          <h3>Ajit Mathew George</h3>
+          <p>Ajit Mathew George es filántropo, empresario jubilado y aficionado a la gastronomía y el vino. Ha fundado y producido numerosos eventos comunitarios, culinarios y de recaudación de fondos de gran éxito, entre ellos Meals From the Masters Celebrity Chef's Brunch, el MidAtlantic Wine + Food Festival y TEDxWilmington. Divide su tiempo entre Wilmington, Delaware, las Islas Vírgenes Británicas y Boquete, Panamá.</p>
+        </div>
+        <div class="card">
+          <h3>Richard Lipner</h3>
+          <p>Richard Lipner es copropietario de Finca Dos Jefes y reside en el área de El Salto, Boquete, desde 2002. Firme defensor de la justicia social y de las prácticas laborales justas, ha incorporado esos valores tanto a su negocio de café como a otras iniciativas. Fundó una iniciativa educativa en la Comarca Ngäbe-Buglé que brinda apoyo a las necesidades educativas y nutricionales de las familias locales.</p>
+        </div>
+        <div class="card">
+          <h3>Carlos Alberto y Ana Teresa Mendez</h3>
+          <p>Carlos Alberto y Ana Teresa Mendez son banqueros jubilados que han participado activamente en varias organizaciones panameñas sin fines de lucro. Viven entre Panamá y Boquete, y pasan parte del año en Florida con su hija y sus nietos.</p>
+        </div>
+        <div class="card">
+          <h3>Tony Royle</h3>
+          <p>Tony Royle, de origen británico, es propietario de TR Services y vive en Boquete desde hace 19 años. Tony ha sido una fuerza impulsora del Parque Biblioteca Boquete desde sus inicios. Fue fundamental para transformar el parque de una idea sobre el papel en el extraordinario refugio que es hoy. Supervisa las operaciones diarias y continúa imaginando, diseñando y gestionando nuevos proyectos de infraestructura que realzan la belleza del parque y la experiencia de sus visitantes.</p>
+        </div>
+        <div class="card">
+          <h3>Karen Rubinstein, Presidenta, y Barbara Rubinstein, Secretaria</h3>
+          <p>Karen Rubinstein, Presidenta, y Barbara Rubinstein, Secretaria, son neoyorquinas jubiladas que se mudaron a Boquete en 2019, atraídas por su belleza natural y su excepcional avifauna. Vieron cómo el Parque Biblioteca Boquete pasó de ser un paisaje seco y rocoso a convertirse en el extraordinario tesoro comunitario que es hoy, y pronto se convirtieron en entusiastas defensoras del parque y de su misión.</p>
+        </div>
+        <div class="card">
+          <h3>Linda Sherman</h3>
+          <p>Linda Sherman es una profesional jubilada de la radio y las comunicaciones que vive en Boquete desde 2012. Busca identificar los lugares sagrados de Boquete con el fin de preservarlos.</p>
+        </div>
+      </div>
+      <p style="margin-top:2.5rem; text-align:center; font-style:italic;">Los miembros de la Junta Directiva prestan sus servicios de manera voluntaria y no reciben remuneración.</p>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    Amigos del Parque Biblioteca Boquete &nbsp;|&nbsp; <a href="mailto:amigosdelparquebqt@gmail.com">amigosdelparquebqt@gmail.com</a><br>
+    Biblioteca de Boquete: <a href="https://www.biblioboquete.org/" target="_blank" rel="noopener noreferrer">biblioboquete.org</a>
+    <div class="sponsor-line">Un proyecto del <a href="https://boquetecommunityfund.github.io" target="_blank" rel="noopener noreferrer">Boquete Community Fund</a>, una organización estadounidense 501(c)(3).</div>
+  </footer>
+
+  <script src="nav-scroll.js"></script>
+</body>
+</html>
