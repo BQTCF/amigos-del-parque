@@ -1,28 +1,34 @@
 ---
-layout: default
-title: The Casey Fund
-permalink: /casey-fund/
+lang: en
+active: casey
+es_url: casey-fund-es.html
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Casey Fund | Amigos del Parque Biblioteca Boquete</title>
+  <meta name="description" content="The Casey Fund, a memorial fund in honor of Bruce 'Casey' Stengel, dedicated to Parque Biblioteca Boquete." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-<div class="page-content">
+  {% include nav.html %}
 
-  <h1>The Casey Fund</h1>
+  <!-- THE CASEY FUND -->
+  <section id="casey" class="mission-split">
+    <div class="mission-text">
+      <div class="section-label">In Memory</div>
+      <div class="divider"></div>
+      <h2>The Casey Fund</h2>
+      <img src="images/casey_fund_logo_final_sml.png" alt="The Casey Fund logo, with a photo of Bruce 'Casey' Stengel wearing a sun hat" style="max-width: 400px; width: 100%; display: block; margin: 1.5rem auto;" />
+      <p>Bruce &ldquo;Casey&rdquo; Stengel was a valued member of the Boquete community and a friend of Parque Biblioteca Boquete. He was a kind and gentle person who valued the nature and tranquillity of Boquete. He loved the park, its beauty, and the sense of community it represents.</p>
+      <p>Following Casey&rsquo;s tragic death, his friends established a memorial fund in his honor. Contributions to the Casey Fund will be dedicated to Parque Biblioteca Boquete, creating a lasting tribute to Casey in a place that meant so much to him.</p>
+    </div>
+  </section>
 
-  <img src="/amigos-del-parque/images/casey_fund_logo_final_sml.png"
-       alt="The Casey Fund logo, with a photo of Bruce 'Casey' Stengel wearing a sun hat"
-       style="max-width: 500px; width: 100%; display: block; margin: 0 auto 2em auto;">
-
-  <p>
-    Bruce &ldquo;Casey&rdquo; Stengel was a valued member of the Boquete community and a friend
-    of Parque Biblioteca Boquete. He was a kind and gentle person who valued the nature and
-    tranquillity of Boquete. He loved the park, its beauty, and the sense of community it
-    represents.
-  </p>
-
-  <p>
-    Following Casey&rsquo;s tragic death, his friends established a memorial fund in his honor.
-    Contributions to the Casey Fund will be dedicated to Parque Biblioteca Boquete, creating a
-    lasting tribute to Casey in a place that meant so much to him.
-  </p>
-
-</div>
+  <!-- FOOTER -->
+  <footer>
+    Amigos del Parque Biblioteca Boquete &nbsp;|&nbsp; <a href="mailto:amigosdelparquebqt@gmail
