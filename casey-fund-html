@@ -24,11 +24,18 @@ es_url: casey-fund-es.html
       <div class="divider"></div>
       <h2>The Casey Fund</h2>
       <img src="images/casey_fund_logo_final_sml.png" alt="The Casey Fund logo, with a photo of Bruce 'Casey' Stengel wearing a sun hat" style="max-width: 400px; width: 100%; display: block; margin: 1.5rem auto;" />
-      <p>Bruce &ldquo;Casey&rdquo; Stengel was a valued member of the Boquete community and a friend of Parque Biblioteca Boquete. He was a kind and gentle person who valued the nature and tranquillity of Boquete. He loved the park, its beauty, and the sense of community it fosters.</p>
+      <p>Bruce &ldquo;Casey&rdquo; Stengel was a valued member of the Boquete community and a friend of Parque Biblioteca Boquete. He was a kind and gentle person who valued the nature and tranquillity of Boquete. He loved the park, its beauty, and the sense of community it represents.</p>
       <p>Following Casey&rsquo;s tragic death, his friends established a memorial fund in his honor. Contributions to the Casey Fund will be dedicated to Parque Biblioteca Boquete, creating a lasting tribute to Casey in a place that meant so much to him.</p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    Amigos del Parque Biblioteca Boquete &nbsp;|&nbsp; <a href="mailto:amigosdelparquebqt@gmail
+    Amigos del Parque Biblioteca Boquete &nbsp;|&nbsp; <a href="mailto:amigosdelparquebqt@gmail.com">amigosdelparquebqt@gmail.com</a><br>
+    Boquete Library: <a href="https://www.biblioboquete.org/" target="_blank" rel="noopener noreferrer">biblioboquete.org</a>
+    <div class="sponsor-line">A project of the <a href="https://boquetecommunityfund.github.io" target="_blank" rel="noopener noreferrer">Boquete Community Fund</a>, a US 501(c)(3) organization.</div>
+  </footer>
+
+  <script src="nav-scroll.js"></script>
+</body>
+</html>
